@@ -1,0 +1,16 @@
+
+https://api.github.com/repos/nsi-iff/bd
+
+https://api.github.com/repos/nsi-iff/bd/issues
+
+https://api.github.com/repos/nsi-iff/bd/issues/1
+
+https://api.github.com/repos/flcs/desenvolvimento_enxuto
+
+https://api.github.com/users/flcs/orgs
+
+https://api.github.com/orgs/nsi-iff
+
+https://api.github.com/orgs/nsi-iff/repos
+
+https://api.github.com/users/flcs
