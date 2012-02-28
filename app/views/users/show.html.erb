@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Login:</b>
+  <%= @user.login %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @user.name %>
+</p>
+
+<p>
+  <b>Company:</b>
+  <%= @user.company %>
+</p>
+
+<p>
+  <b>Bio:</b>
+  <%= @user.bio %>
+</p>
+
+<p>
+  <b>Id git:</b>
+  <%= @user.id_git %>
+</p>
+
+<p>
+  <b>Email git:</b>
+  <%= @user.email_git %>
+</p>
+
+<p>
+  <b>Url git:</b>
+  <%= @user.url_git %>
+</p>
+
+<p>
+  <b>Created:</b>
+  <%= @user.created %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

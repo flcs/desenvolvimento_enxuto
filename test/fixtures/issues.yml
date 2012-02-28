@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  body: MyString
+  number: 1
+  milestone: MyString
+  state: MyString
+  created: 2012-02-28
+  closed: 2012-02-28
+
+two:
+  title: MyString
+  body: MyString
+  number: 1
+  milestone: MyString
+  state: MyString
+  created: 2012-02-28
+  closed: 2012-02-28

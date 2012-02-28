@@ -1,4 +1,8 @@
 DesenvolvimentoEnxuto::Application.routes.draw do
+  resources :issues
+
+  resources :users
+
   resources :projects
 
   resources :organizations

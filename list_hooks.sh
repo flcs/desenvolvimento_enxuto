@@ -3,7 +3,12 @@
 set -x
 
 curl -X GET -u "flcs:aniram" -i \
-  https://api.github.com/repos/flcs/desenvolvimento_enxuto/hooks
+    https://api.github.com/repos/nsi-iff/bd/git/tags
+
+#  https://api.github.com/repos/flcs/desenvolvimento_enxuto/hooks
+
+
+
 
 
 #  -d '{ "name": "web", "active": true, "config": { "url": "http://flcs.homeunix.com:8080/webhook/desenvolvimento_enxuto" } } '
