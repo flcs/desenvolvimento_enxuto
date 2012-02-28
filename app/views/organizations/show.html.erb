@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @organization.name %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @organization.url %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @organization.description %>
+</p>
+
+<p>
+  <b>Id git:</b>
+  <%= @organization.id_git %>
+</p>
+
+<p>
+  <b>Login git:</b>
+  <%= @organization.login_git %>
+</p>
+
+<p>
+  <b>Url git:</b>
+  <%= @organization.url_git %>
+</p>
+
+
+<%= link_to 'Edit', edit_organization_path(@organization) %> |
+<%= link_to 'Back', organizations_path %>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  url: MyString
+  description: MyString
+  id_git: MyString
+  login_git: MyString
+  url_git: MyString
+
+two:
+  name: MyString
+  url: MyString
+  description: MyString
+  id_git: MyString
+  login_git: MyString
+  url_git: MyString

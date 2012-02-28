@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @project.name %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @project.url %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @project.description %>
+</p>
+
+<p>
+  <b>Id git:</b>
+  <%= @project.id_git %>
+</p>
+
+<p>
+  <b>User git:</b>
+  <%= @project.user_git %>
+</p>
+
+<p>
+  <b>Repository git:</b>
+  <%= @project.repository_git %>
+</p>
+
+<p>
+  <b>Url git:</b>
+  <%= @project.url_git %>
+</p>
+
+<p>
+  <b>Started:</b>
+  <%= @project.started %>
+</p>
+
+<p>
+  <b>Language:</b>
+  <%= @project.language %>
+</p>
+
+
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>
