@@ -1,8 +1,7 @@
 
-
 set -x
 
-curl -X POST -u "flcs:aniram" -i \
+curl -X POST -u "flcs:xxxxxxxx" -i \
   https://api.github.com/repos/flcs/desenvolvimento_enxuto/hooks \
   -d '{ "name": "web", "active": true, "config": { "url": "http://flcs.homeunix.com:8080/webhook/desenvolvimento_enxuto" } } '
 
