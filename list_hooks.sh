@@ -1,8 +1,7 @@
 
-
 set -x
 
-curl -X GET -u "flcs:aniram" -i \
+curl -X GET -u "flcs:xxxxxxxx" -i \
     https://api.github.com/repos/nsi-iff/bd/git/tags
 
 #  https://api.github.com/repos/flcs/desenvolvimento_enxuto/hooks
