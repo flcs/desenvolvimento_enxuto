@@ -1,8 +1,7 @@
 
-
 set -x
 
-curl -X DELETE -u "flcs:aniram" -i \
+curl -X DELETE -u "flcs:xxxxxxx" -i \
   https://api.github.com/repos/flcs/desenvolvimento_enxuto/hooks/181956
 
 
