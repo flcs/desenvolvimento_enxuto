@@ -1,4 +1,3 @@
-
 set -x
 
 curl -X POST -u "flcs:xxxxxxxx" -i \
@@ -11,7 +10,7 @@ curl -X POST -u "flcs:xxxxxxxx" -i \
 #  -F "hub.callback=http://flcs.homeunix.com:8080/123" \
 
 
-#++ curl -X POST -u flcs:aniram -i https://api.github.com/repos/flcs/desenvolvimento_enxuto/hooks -d '{ "name": "web", "active": true, "config": { "url": "http://flcs.homeunix.com:8080/webhook/desenvolvimento_enxuto" } } '
+#++ curl -X POST -u flcs:xxxxxxx -i https://api.github.com/repos/flcs/desenvolvimento_enxuto/hooks -d '{ "name": "web", "active": true, "config": { "url": "http://flcs.homeunix.com:8080/webhook/desenvolvimento_enxuto" } } '
 #HTTP/1.1 201 Created
 #Server: nginx/1.0.12
 #Date: Tue, 28 Feb 2012 09:17:36 GMT
