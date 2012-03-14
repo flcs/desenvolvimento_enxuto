@@ -1,0 +1,6 @@
+
+sudo passwd postgres 
+sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres'"
+RAILS_ENV=development bundle exec rake db:create
+RAILS_ENV=development bundle exec rake db:migrate
+
